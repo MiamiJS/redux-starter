@@ -11,7 +11,7 @@
   ### React Clients (Joe)
     - Redux Server
     - React Client
-    - Resuing web code-base for react-native
+    - Reusing web code-base for react-native
 
   ### Angular Clients (Peter)
     - Installing angular cli
