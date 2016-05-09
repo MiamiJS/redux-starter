@@ -5,6 +5,12 @@ import reducer from '../src/reducer'
 
 describe('Reducer', () => {
 
+  let state
+  beforeEach(() => {
+    state = Map({currentNumber:0})
+  })
+
+
   it('', ()=>{
     expect().to.equal()
   })
