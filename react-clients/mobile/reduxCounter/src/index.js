@@ -18,8 +18,6 @@ socket.on('state', serverState =>
 const createStoreWithMiddleware = applyMiddleware(serverMiddleware(socket))(createStore)
 const store = createStoreWithMiddleware(rootReducer)
 
-console.log(store.getState())
-
 export default React.createClass({
   render (){
     return <Provider store={store}><AppContainer/></Provider>
