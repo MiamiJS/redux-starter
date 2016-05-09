@@ -1,9 +1,9 @@
-import {Map} from 'immutable'
-import {setState, increment, decrement} from './core'
+// import {Map} from 'immutable'
+// import {setState, increment, decrement} from './core'
 
-export default function reducer(  ){}
-  switch (expression) {
-  case expression:
-  default:
-  }
-}
+// export default function reducer(  ){}
+//   switch (expression) {
+//   case expression:
+//   }
+//   return
+// }
