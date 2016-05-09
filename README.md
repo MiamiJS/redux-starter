@@ -7,21 +7,17 @@
 - General Redux Architecture
 - Agenda:
 
-  ### Redux Server (Joe and Peter)
-    - Working with immutable data
-    - Testing the business logic
-    - Configuring socket.io
 
+  ### React Clients (Joe)
+    - Redux Server
+    - React Client
+    - Resuing web code-base for react-native
 
   ### Angular Clients (Peter)
     - Installing angular cli
     - Installing ionic cli
     - Adding ngrx/store to both projects
 
-  ### React Clients (Joe)
-    - React Hello World
-    - Adding the client store
-    - Resuing web code-base for react-native
 
 ## Resources
 
