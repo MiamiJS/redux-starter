@@ -12,7 +12,7 @@ export const setState = (state, currentNumber) => state.set('currentNumber', cur
 
 ```
 
-##### Logger
+##### Reducing the Reducer
 ```js
 it('go forward and backward', ()=>{
   const actions = [
