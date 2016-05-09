@@ -8,12 +8,12 @@
 - Agenda:
 
 
-  ### React Clients (Joe)
+  ### React (Joe)
     - Redux Server
     - React Client
     - Reusing web code-base for react-native
 
-  ### Angular Clients (Peter)
+  ### Angular (Peter)
     - Installing angular cli
     - Installing ionic cli
     - Adding ngrx/store to both projects
