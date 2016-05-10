@@ -50,3 +50,17 @@ const fbMiddleware = store => next => action => {
 		console.log(action.type, store.getState())
 		firebaseRef.update(store.getState().toJS())}}
 ```
+
+##### Configuring the socket
+```js
+store.subscribe(
+  ()=> io.emit('state', store.getState().toJS())  //emits a snapshot when the state changes internally
+)
+```
+
+```js
+io.on('connection', (socket) => {
+  socket.emit('state', store.getState().toJS());  //listens for external client connections and emits the state
+  socket.on('action', store.dispatch.bind(store)); //able to recieve actions from clients
+});
+```
