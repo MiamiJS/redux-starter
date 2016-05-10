@@ -1,4 +1,4 @@
-# Socket.io/Redux Server with Firebase Integration
+# Socket.io/Redux Server Starter
 
 - To install modules:  `npm i`
 
